@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\satee\git\projectbank\src\main\java\com\bellinfo\spring\javaconfig\AppInitializeer.java
 C:\Users\satee\git\projectbank\src\main\java\com\bellinfo\spring\model\Student.java
 C:\Users\satee\git\projectbank\src\main\java\com\bellinfo\spring\service\StudentServiceImpel.java
@@ -6,3 +7,13 @@ C:\Users\satee\git\projectbank\src\main\java\com\bellinfo\spring\repository\Stud
 C:\Users\satee\git\projectbank\src\main\java\com\bellinfo\spring\model\LoginCredentials.java
 C:\Users\satee\git\projectbank\src\main\java\com\bellinfo\spring\javaconfig\AppConfig.java
 C:\Users\satee\git\projectbank\src\main\java\com\bellinfo\spring\controller\LandingPageController.java
+=======
+C:\Users\lenovo\git\projectbank\src\main\java\com\bellinfo\spring\controller\LandingPageController.java
+C:\Users\lenovo\git\projectbank\src\main\java\com\bellinfo\spring\javaconfig\AppConfig.java
+C:\Users\lenovo\git\projectbank\src\main\java\com\bellinfo\spring\javaconfig\AppInitializeer.java
+C:\Users\lenovo\git\projectbank\src\main\java\com\bellinfo\spring\model\Student.java
+C:\Users\lenovo\git\projectbank\src\main\java\com\bellinfo\spring\service\StudentServiceImpel.java
+C:\Users\lenovo\git\projectbank\src\main\java\com\bellinfo\spring\repository\StudentRepository.java
+C:\Users\lenovo\git\projectbank\src\main\java\com\bellinfo\spring\model\LoginCredentials.java
+C:\Users\lenovo\git\projectbank\src\main\java\com\bellinfo\spring\service\StudentService.java
+>>>>>>> branch 'master' of https://github.com/KiraanVajrala/projectbank.git
