@@ -18,7 +18,7 @@
 
 		<!--Copyright-->
 		<div class="footer-copyright py-3 text-center">© 2018 Copyright:
-			this is 123Syed Hamed hai everyone</div>
+			this is 123Syed Hamed bye everyone</div>
 		<!--/.Copyright-->
 	</div>
 </footer>
