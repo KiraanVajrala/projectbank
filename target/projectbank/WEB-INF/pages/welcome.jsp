@@ -29,7 +29,7 @@ div.fixed {
 		<c:set var="contextPath" value="${pageContext.request.contextPath}" />
 
 		<a href="${contextPath}/register" class="btn btn-info" role="button">Register
-			Here!</a> <a href="${contextPath}/login" class="btn btn-info"
+			Here!</a> <a href="${contextPath}/projectbank/login" class="btn btn-info"
 			role="button">Login Here!</a>
 	</div>
 

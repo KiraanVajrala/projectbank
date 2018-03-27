@@ -178,7 +178,7 @@ input[type=text]:hover, input[type=password]:hover, label:hover ~ input[type=tex
 			<f:button>Submit</f:button>
 			<hr />
 			<a class="btn btn-primary center-block"
-				href="${contextPath}/bank-application/register" role="button">Register
+				href="${contextPath}/projectbank/register" role="button">Register
 				Here</a>
 		</div>
 

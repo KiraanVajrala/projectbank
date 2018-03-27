@@ -23,11 +23,11 @@
 						class="icon-bar"></span>
 				</button>
 				<center>
-				<a class="navbar-brand" href="${contextPath}/bank-application/login">CHASE BANK</a></center>
+				<a class="navbar-brand" href="${contextPath}/projectbank/login">CHASE BANK</a></center>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="${contextPath}/bank-application/login">Home</a></li>
+					<li class="active"><a href="${contextPath}/projectbank/login">Home</a></li>
 					<li class="dropdown">
 					<a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Find ATM/Branch<span class="caret"></span></a>
@@ -38,9 +38,9 @@
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="${contextPath}/bank-application/register"><span class="glyphicon glyphicon-user"></span>
+					<li><a href="${contextPath}/projectbank/register"><span class="glyphicon glyphicon-user"></span>
 							Sign Up</a></li>
-					<li><a href="${contextPath}/bank-application/login"><span class="glyphicon glyphicon-log-in"></span>
+					<li><a href="${contextPath}/projectbank/login"><span class="glyphicon glyphicon-log-in"></span>
 							Login</a></li>
 				</ul>
 			</div>

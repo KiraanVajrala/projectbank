@@ -24,7 +24,7 @@
 		<c:set var="contextPath" value="${pageContext.request.contextPath}" />
 
 
-		<a href="${contextPath}/login" class="btn btn-info" role="button">Login
+		<a href="${contextPath}/projectbank/login" class="btn btn-info" role="button">Login
 			Here!</a>
 	</div>
 
