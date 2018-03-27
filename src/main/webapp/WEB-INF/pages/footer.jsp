@@ -18,7 +18,7 @@
 
 		<!--Copyright-->
 		<div class="footer-copyright py-3 text-center">© 2018 Copyright:
-			Syed Hamed</div>
+			this is Syed Hamed</div>
 		<!--/.Copyright-->
 	</div>
 </footer>
