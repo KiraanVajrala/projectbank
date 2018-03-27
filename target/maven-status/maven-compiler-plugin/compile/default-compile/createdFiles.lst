@@ -1,0 +1,9 @@
+com\bellinfo\spring\repository\StudentRepository$1.class
+com\bellinfo\spring\repository\StudentRepository.class
+com\bellinfo\spring\javaconfig\AppConfig.class
+com\bellinfo\spring\javaconfig\AppInitializeer.class
+com\bellinfo\spring\model\Student.class
+com\bellinfo\spring\service\StudentServiceImpel.class
+com\bellinfo\spring\controller\LandingPageController.class
+com\bellinfo\spring\service\StudentService.class
+com\bellinfo\spring\model\LoginCredentials.class
