@@ -6,11 +6,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+<style>
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+</style>
 <body>
 
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -24,27 +35,26 @@
 				<center>
 				<a class="navbar-brand" href="${contextPath}/projectbank/login">CHASE BANK</a></center>
 			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
+		<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="${contextPath}/projectbank/login">Home</a></li>
 					<li class="dropdown">
 					<a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Find ATM/Branch<span class="caret"></span></a>
-						<ul class="dropdown-menu">
+						<ul class="dropdown-menu"> 
 							<li><a href="#">ATM</a></li>
 							<li><a href="#">BRANCH</a></li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="${contextPath}/projectbank/register"><span class="glyphicon glyphicon-user"></span>
+					<li><a href="${contextPath}/projectbank/logout"><span class="glyphicon glyphicon-user"></span>
 							Logout</a></li>
 					
 				</ul>
 			</div>
 		</div>
 	</nav>
-<p>wdnwdn</p> 
 
 </body>
 </html>
