@@ -18,8 +18,8 @@ import com.bellinfo.spring.model.Student;
 @Component
 public class StudentRepository {
 	Connection con = null;
-	private static final String CREATE_TABLE_STRUCTURE = "CREATE TABLE IF NOT EXISTS STUDENT_DATA(Name varchar(20)  UNIQUE,Password varchar(20),fees real,year integer,gpa integer)";
-	private static final String INSERT_INVOICE_RECORD = "INSERT INTO STUDENT_DATA VALUES(?,?,?,?,?)";
+	private static final String CREATE_TABLE_STRUCTURE = "CREATE TABLE IF NOT EXISTS STUDENT_DATA(Name varchar(20)  UNIQUE,Password varchar(20),Email varchar(30))";
+	private static final String INSERT_INVOICE_RECORD = "INSERT INTO STUDENT_DATA VALUES(?,?)";
 	private static final String VALIDATE_PASSWORD = "SELECT password FROM student_data WHERE name=?";
 
 	public DataSource datasource() {
@@ -41,8 +41,7 @@ public class StudentRepository {
 	public void persistStudentData(Student student) {
 		JdbcTemplate template = jdbcTemplate();
 		template.execute(CREATE_TABLE_STRUCTURE);
-		template.update(INSERT_INVOICE_RECORD, student.getName(), student.getPassword(), student.getFees(),
-				student.getGpa(), student.getYear());
+		template.update(INSERT_INVOICE_RECORD, student.getName(), student.getPassword());
 
 		System.out.println("inserted student data");
 
@@ -90,8 +89,6 @@ public class StudentRepository {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
 		System.out.println(password+stud.getPassword());
 		return password;
 	}

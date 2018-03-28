@@ -105,9 +105,6 @@
   opacity: 1;
 }
 </style>
-</head>
-
-<html lang=''>
 <head>
    <meta charset='utf-8'>
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -120,8 +117,11 @@
 <body>
 
 <div id='cssmenu'>
+<br>
+<br>
+<br>
 <ul>
-   <li><a href='student-login'><span>Home</span></a></li>
+   <li><a href="${contextPath}/projectbank/login"><span>Home</span></a></li>
    <li class='active has-sub'><a href='#'><span>Accounts</span></a>
       <ul>
          <li class='has-sub'><a href='#'><span>Check-ins</span></a>
@@ -138,4 +138,4 @@
 </div>
 
 </body>
-<html>
+</html>

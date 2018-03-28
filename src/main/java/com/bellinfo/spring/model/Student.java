@@ -1,38 +1,35 @@
 package com.bellinfo.spring.model;
 
-
-
 public class Student {
 	String name;
-	double fees;
 	String password;
-	int year;
-	int gpa;
-	
-	
-	public Student(String name,String password) {
+	String address;
+	String email;
+
+	public Student(String name, String password, String address, String email) {
 		super();
 		this.name = name;
-		this.fees = 0;
 		this.password = password;
-		this.year = 0;
-		this.gpa = 0;
+		this.address = address;
+		this.email = email;
 	}
-	
+
+	public Student() {
+		super();
+	}
+
+	public Student(String name, String password) {
+		super();
+		this.name = name;
+		this.password = password;
+	}
+
 	public String getName() {
 		return name;
 	}
 
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	public double getFees() {
-		return fees;
-	}
-
-	public void setFees(double fees) {
-		this.fees = fees;
 	}
 
 	public String getPassword() {
@@ -43,29 +40,25 @@ public class Student {
 		this.password = password;
 	}
 
-	public int getYear() {
-		return year;
+	public String getAddress() {
+		return address;
 	}
 
-	public void setYear(int year) {
-		this.year = year;
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
-	public int getGpa() {
-		return gpa;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setGpa(int gpa) {
-		this.gpa = gpa;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	@Override
 	public String toString() {
-		return "Student [name=" + name + ", fees=" + fees + ", semister=" + password + ", year=" + year + ", gpa=" + gpa
-				+ "]";
+		return "Student [name=" + name + " ,password:" + password + "]";
 	}
-	
-
-	
 
 }

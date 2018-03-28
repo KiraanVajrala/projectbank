@@ -118,7 +118,7 @@
 
 <div id='cssmenu'>
 <ul>
-   <li><a href='student-login'><span>Home</span></a></li>
+   <li><a href="${contextPath}/projectbank/login"><span>Home</span></a></li>
     <li><a href='#'><span>Apply For Credit Card</span></a></li>
      <li><a href='https://www.chase.com/digital/resources/complaints-feedback'><span>Feedback</span></a></li>
    <li><a href='https://www.chase.com/digital/resources/about-chase'><span>About</span></a></li>

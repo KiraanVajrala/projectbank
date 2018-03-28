@@ -30,7 +30,7 @@ footer {
 	<div class="container-fluid text-center text-md-left">
 		<div class="row">
 			<div class="col-sm-2">
-				<h6>Copyright &copy; 2018 BellInfo</h6>
+				<h6>Copyright new &copy; 2018 BellInfo</h6>
 			</div>
 			<!-- end col-sm-2 -->
 
