@@ -6,7 +6,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script
@@ -48,7 +47,7 @@
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="${contextPath}/projectbank/logout"><span class="glyphicon glyphicon-user"></span>
+					<li><a href="${contextPath}/projectbank/register"><span class="glyphicon glyphicon-user"></span>
 							Logout</a></li>
 					
 				</ul>
