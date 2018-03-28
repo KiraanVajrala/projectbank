@@ -41,7 +41,7 @@
 					<li class="dropdown">
 					<a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Find ATM/Branch<span class="caret"></span></a>
-						<ul class="dropdown-menu">
+						<ul class="dropdown-menu"> 
 							<li><a href="#">ATM</a></li>
 							<li><a href="#">BRANCH</a></li>
 						</ul>
