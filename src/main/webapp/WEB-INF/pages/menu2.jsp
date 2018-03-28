@@ -105,6 +105,9 @@
   opacity: 1;
 }
 </style>
+</head>
+
+<html lang=''>
 <head>
    <meta charset='utf-8'>
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -119,13 +122,20 @@
 <div id='cssmenu'>
 <ul>
    <li><a href='student-login'><span>Home</span></a></li>
-    <li><a href='#'><span>Apply For Credit Card</span></a></li>
-     <li><a href='https://www.chase.com/digital/resources/complaints-feedback'><span>Feedback</span></a></li>
-   <li><a href='https://www.chase.com/digital/resources/about-chase'><span>About</span></a></li>
-   <li><a href='https://www.chase.com/digital/resources/customer-service'><span>help</span></a></li>
-   <li class='last'><a href='https://www.chase.com/digital/resources/customer-service'><span>Contact</span></a></li>
+   <li class='active has-sub'><a href='#'><span>Accounts</span></a>
+      <ul>
+         <li class='has-sub'><a href='#'><span>Check-ins</span></a>
+         </li>
+         <li class='has-sub'><a href='#'><span>Savings</span></a>
+         </li>
+      </ul>
+   </li>
+   <li><a href='#'><span>Apply For Credit Card</span></a></li>
+   <li><a href='#'><span>Bank Statements</span></a></li>
+   <li><a href='#'><span>Pay Bills</span></a></li>
+   <li><a href='#'><span>Transfer</span></a></li>
 </ul>
 </div>
 
 </body>
-</html>
+<html>

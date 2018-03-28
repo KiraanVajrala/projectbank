@@ -12,6 +12,16 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+<style>
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+</style>
 <body>
 
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -25,7 +35,7 @@
 				<center>
 				<a class="navbar-brand" href="${contextPath}/projectbank/login">CHASE BANK</a></center>
 			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
+		<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="${contextPath}/projectbank/login">Home</a></li>
 					<li class="dropdown">
