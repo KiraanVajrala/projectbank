@@ -20,7 +20,7 @@
 <body style="background-color: gray;">
 	<div class="container">
 		${message}
-		<h1>You are successfully registered</h1>
+		<h1>You are successfully registered Thank you very much</h1>
 		<c:set var="contextPath" value="${pageContext.request.contextPath}" />
 
 

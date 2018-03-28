@@ -164,10 +164,12 @@ input[type=text]:hover, input[type=password]:hover, label:hover ~ input[type=tex
 
 	<f:form action="/register" method="Post" modelAttribute="lc">
 		<div class="inset">
-			<h1>Registeration.</h1>
+			<h1>Chase Registeration</h1>
 			Name:
 			<f:input path="name" />
 			<br> <br> Password:
+			<f:input path="password" type="password" />
+			<br> <br> ReEnter Password:
 			<f:input path="password" type="password" />
 			<br> <br>
 			<f:button>Register</f:button>
