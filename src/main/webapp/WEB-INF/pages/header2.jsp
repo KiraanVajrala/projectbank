@@ -38,7 +38,7 @@
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="${contextPath}/projectbank/logout"><span class="glyphicon glyphicon-user"></span>
+					<li><a href="${contextPath}/projectbank/register"><span class="glyphicon glyphicon-user"></span>
 							Logout</a></li>
 					
 				</ul>
