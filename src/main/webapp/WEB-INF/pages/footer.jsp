@@ -61,3 +61,5 @@ footer {
 		<!-- end row -->
 	</div>
 </footer>
+</body>
+</html>
